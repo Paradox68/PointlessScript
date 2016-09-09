@@ -1586,7 +1586,7 @@
             }
             API.chatLog('Avatars capped at ' + ambient.settings.startupCap);
             API.chatLog('Volume set to ' + ambient.settings.startupVolume);
-            //loadChat(API.sendChat(subChat(ambient.chat.online, {botname: ambient.settings.botName, version: ambient.version})));
+            loadChat(API.sendChat(subChat(ambient.chat.online, {botname: ambient.settings.botName, version: ambient.version})));
         },
         commands: {
             executable: function (minRank, chat) {
