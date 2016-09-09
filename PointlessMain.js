@@ -3625,7 +3625,7 @@
                 }
             },
 
-    /*        helloCommand: {
+            helloCommand: {
                 command: ['hello', 'hi', 'hey'],
                 rank: 'user',
                 type: 'exact',
@@ -3961,7 +3961,7 @@
                         if (this.type === 'exact' && chat.message.length !== cmd.length) { return void (0); }
                         API.sendChat(subChat('http://i.imgur.com/wlTqw2a.gif'));
                     }
-                },*/
+                },
                 lockposCommand: {
                     command: 'lockpos',
                     rank: 'user',
