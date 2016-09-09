@@ -179,14 +179,14 @@
         return m;
     };
 
-    var botCreator = "Connor (Paradox)";
-    var botMaintainer = "AmbientBot v2"
+    var botCreator = "Connor (Paradox VII)";
+    var botMaintainer = "Paradox VII"
     var botCreatorIDs = ["3995934", "4105209"];
 
     var ambient = {
         version: "1.0.1",
         status: false,
-        name: "@AmbientBot v2",
+        name: "@Paradox VII",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Paradox68/AmbientBot/master/AmbientBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -196,19 +196,19 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "AmbientBot v2",
+            botName: "Paradox VII",
             monies: [" ", " "],
             language: "english",
             chatLink: "https://rawgit.com/Paradox68/AmbientBot/master/lang/en.json",
             startupCap: 1, // 1-200
             spotLock: "none",
             approvedDJ: "[None]",
-            startupVolume: 0, // 0-100
+            startupVolume: 100, // 0-100
             startupEmoji: true, // true or false
             cmdDeletion: false,
-            maximumAfk: 120,
-            afkRemoval: true,
-            maximumDc: 60,
+            maximumAfk: 120000,
+            afkRemoval: false,
+            maximumDc: 120000,
             bouncerPlus: true,
             blacklistEnabled: true,
             lockdownEnabled: false,
@@ -219,8 +219,8 @@
             voteSkip: false,
             voteSkipLimit: 10,
             historySkip: false,
-            timeGuard: true,
-            maximumSongLength: 10,
+            timeGuard: false,
+            maximumSongLength: 100,
             autodisable: true,
             commandCooldown: 1,
             usercommandsEnabled: true,
@@ -238,10 +238,10 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 30,
-            motd: "The Ambient Room focuses on bringing you the best new music around. With a fun community and anti-pop culture music, it is easy to find your place here.",
+            motd: "I hate you.",
             filterChat: true,
             etaRestriction: false,
-            welcome: true,
+            welcome: false,
             opLink: null,
             rulesLink: null,
             themeLink: null,
@@ -249,9 +249,9 @@
             youtubeLink: null,
             website: "http://www.the-ambient.info/",
             intervalMessages: [],
-            messageInterval: 5,
-            songstats: true,
-            commandLiteral: "!",
+            messageInterval: 2,
+            songstats: false,
+            commandLiteral: "$",
             blacklists: {
                 NSFW: "https://rawgit.com/Paradox68/AmbientBot/master/nsfw.json",
                 OP: "https://rawgit.com/Paradox68/AmbientBot/master/op.json"
